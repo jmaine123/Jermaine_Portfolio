@@ -93,13 +93,13 @@
     }
   }
   
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .projects-grid {
         grid-template-columns: 1fr;
     }
 
     .overlay{
-        left: 50;
+        left: 50%;
     }
 }
   

@@ -10,14 +10,14 @@ export const ProjectList = [
     image: Make_a_move_pic,
     description:"Users can sign up to help become movers and get assistance with moving from other users. Those users who assist with moving with be rewarded with points or free items.",
     // skills: "JavaScript,HTML,CSS",
-    link: "https://www.google.com",
+    link: "https://github.com/jmaine123/make_a_move",
   },
   {
     name: "Admin Panel",
     image: panel_screenshot_pic,
     description:"Admin panel in which students and teachers can sign up for classes as a drop classes they are taken. All class details are available in the panel",
     // skills: "JavaScript,HTML,CSS",
-    link: "google.com",
+    link: "https://github.com/jmaine123/njcda_panel",
   },
   {
     name: "Plan My Night: Event Planning App",
