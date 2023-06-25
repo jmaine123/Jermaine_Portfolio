@@ -5,7 +5,11 @@ function ProjectItem({project, id}) {
     const { name, image, description, link} = project;
     const navigate = useNavigate();
     return (
-        <div className="project">
+        <div className="project"
+            onClick={() => {
+                navigate("/project/" + id);
+            }}
+        >
             <img src={image} alt='' />
             <div className='overlay'>
                 <h2 className='project-title'>{name}</h2>

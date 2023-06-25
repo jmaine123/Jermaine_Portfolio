@@ -9,11 +9,11 @@ import Jermaine_pic from '../images/Jermaine.png'
 function Home() {
   return (
     <div className="home">
-      <Grid container spacing={2} className="about">
-        <Grid item xs={6} className="image">
+      <Grid container spacing={0} className="about">
+        <Grid item xs={3} className="image">
             <img src={Jermaine_pic} className="main-image" alt=""/>
         </Grid>
-        <Grid item xs={6} className="prompt">
+        <Grid item xs={5} className="prompt">
             <h2> Hello, My Name is Jermaine Smikle</h2>
             <p>A Software Developer/ Data Analyst with a passion for learning and creating.</p>
             <LinkedInIcon />
