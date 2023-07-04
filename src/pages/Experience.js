@@ -41,8 +41,8 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2010"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Ellkay, LLC. Teaneck, NJ 07666
